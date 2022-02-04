@@ -1,17 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
-
-ReactDOM.render(<App />, document.getElementById('root'));
-
-// const rootElement = document.querySelector("#root");
-// if (rootElement) {
-//   render(<App />, rootElement);
-// }
+// import BasicTable from "./BasicTable";
+// import GroupedTable from "./GroupedTable";
+// import GroupedTableV2 from "./GroupedTableV2";
+// import Sorting from "./Sorting";
+import Main from "./components/muitable/Main";
+ReactDOM.render(<Main />, document.getElementById('root'));
