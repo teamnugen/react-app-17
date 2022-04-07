@@ -5,5 +5,6 @@ import ReactDOM from 'react-dom';
 // import GroupedTable from "./GroupedTable";
 // import GroupedTableV2 from "./GroupedTableV2";
 // import Sorting from "./Sorting";
-import Main from "./components/muitable/Main";
-ReactDOM.render(<Main />, document.getElementById('root'));
+
+import CountDownApp from "./components/countdown/App";
+ReactDOM.render(<CountDownApp />, document.getElementById('root'));
